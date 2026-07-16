@@ -1,0 +1,98 @@
+<!DOCTYPE html>  
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>jerome AI (Formerly dumb AI)</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=instrument+serif&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+        <style>
+          * {
+            box-sizing: border-box;
+          }
+
+            body {
+                font-family: 'inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+                margin: 0;
+                min-height: 100vh;
+                background-color: #f4f6f8;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                padding: 24px;
+                color: #1f2937;
+            } 
+
+            .container {
+                margin-top: 48px;
+                background-color: #ffffff;
+                padding: 1px solid #e5e7eb;
+                border-radius: 20px;
+                box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+                padding: 40px 32px;
+                width: 100%;
+                max-width: 720px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            h1 {
+                font-family: 'instrument serif', serif;
+                color: #111827;
+                font-size: 3em;
+                text-align: center;
+                margin: 0 0 8px 0;
+                font-weight: 400;
+                letter-spacing: 0.2px;
+                line-height: 1;
+            }
+
+            h3 {
+                margin: 0 0 24px 0;
+                color: #6b7280;
+                font-weight: 500;
+                font-family: 'inter', system-ui, sans-serif;
+            }
+
+            input[type="text"] {
+                width: 100%;
+                max-width: 560px;
+                padding: 14px 16px;
+                border: 1px solid #d1d5db;
+                border-radius: 12px;
+                margin-bottom: 16px;
+                background-color: #ffffff;
+                font-size: 1.05em;
+                color: #111827;
+                outline: none;
+                transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+                font-family: 'inter', system-ui, sans-serif;
+            }
+
+            input[type="text"]::placeholder {
+                color: #9ca3af;
+            }
+
+            input[type="text"]:focus {
+                border-color: #2563eb;
+                box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+            }
+
+            button,
+            #seemorebtn {
+                background-color: #2563eb;
+                color: #ffffff;
+                border: none;
+                padding: 13px 28px;
+                border-radius: 12px;
+                font-size: 1.02em;
+                font-weight: 700;
+                cursor: pointer;
+                margin-top: 14px;
+                transition: background-color 0.2s ease-in-out, transform 0.12s ease-in-out, box-shadow 0.2s ease-in-out;
+                font-family: 'instrument serif', serif;
